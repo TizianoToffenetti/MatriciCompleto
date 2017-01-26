@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package matrici;
 
 /**
@@ -18,13 +17,13 @@ public class Matrici {
     public static void main(String[] args) {
         Matrice m = new Matrice(10, 10);
         
+        /*
         m.fillRandom();
         System.out.println(m);
-      
-        
         m.toFile("data/matrice.txt");
+        */
+        
         m.fromFile("data/matrice.txt");
         System.out.println(m);
     }
 }
-
